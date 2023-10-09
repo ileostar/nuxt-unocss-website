@@ -1,5 +1,5 @@
 <template>
-  <div class="grid-container" mpp h-50 flex justify-between overflow-hidden>
+  <div class="grid-container" h-50 flex justify-between overflow-hidden mpp>
     <div class="grid-item" flex="~ col 1" items-center>
       <div flex="~ col 1" w-sm items-start justify-center>
         <Logos mb-6 />

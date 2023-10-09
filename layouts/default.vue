@@ -3,7 +3,7 @@
     <a-layout-header mpp>
       <Header />
     </a-layout-header>
-    <a-layout-content mpp flex justify-center py-20 text-center>
+    <a-layout-content flex justify-center py-20 text-center mpp>
       <slot />
     </a-layout-content>
     <a-layout-footer>
