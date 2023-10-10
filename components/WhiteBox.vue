@@ -1,5 +1,5 @@
 <template>
-  <div class="grid-container" mpp grid h-lg w-full overflow-hidden bg-white py-5>
+  <div class="grid-container" grid h-lg w-full overflow-hidden bg-white py-5 mpp>
     <div class="grid-item">
       <slot name="left" />
     </div>
