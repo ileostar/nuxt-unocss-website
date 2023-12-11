@@ -43,7 +43,7 @@
     "nuxt": "^3.7.0",
     "pinia": "^2.1.6",
     "typescript": "^5.2.2",
-    "vue-tsc": "^1.8.8",
+    "vue-tsc": "^1.8.25",
     "vue-typed-js": "^0.1.2"
   },
   "dependencies": {
