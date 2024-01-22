@@ -11,13 +11,14 @@ export default defineNuxtConfig({
     'arco-design-nuxt-module',
     '@nuxtjs/i18n',
     '@hypernym/nuxt-anime',
+    '@nuxtjs/tailwindcss',
+    'nuxt-module-eslint-config',
   ],
 
   experimental: {
     // when using generate, payload js assets included in sw precache manifest
     // but missing on offline, disabling extraction it until fixed
     payloadExtraction: false,
-    inlineSSRStyles: false,
     renderJsonPayloads: true,
     typedPages: true,
   },
@@ -67,5 +68,14 @@ export default defineNuxtConfig({
     timeline: {
       enabled: true,
     },
+  },
+
+  features: {
+    // For UnoCSS
+    inlineStyles: false,
+  },
+
+  eslintConfig: {
+    setup: false,
   },
 })

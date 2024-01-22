@@ -15,30 +15,8 @@ definePageMeta({
       </template>
     </Suspense>
     <Wavy />
-    <WhiteBox class="-mt">
-      <template #left>
-        <div bg-blue>
-          left
-        </div>
-      </template>
-      <template #right>
-        <div bg-blue>
-          right
-        </div>
-      </template>
-    </WhiteBox>
+    <FeatureBox/>
     <GreyBox />
-    <WhiteBox>
-      <template #left>
-        <div bg-blue>
-          left
-        </div>
-      </template>
-      <template #right>
-        <div bg-blue>
-          right
-        </div>
-      </template>
-    </WhiteBox>
+    <Direction/>
   </div>
 </template>
